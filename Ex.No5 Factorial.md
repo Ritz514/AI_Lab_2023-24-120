@@ -13,9 +13,15 @@ To  write  a logic program for finding the factorial of given number using SWI-P
 
 ### Program:
 
-
+factorial(0,1).
+factorial(A,B):-
+    A>0,
+    C is A-1,
+    factorial(C,D),
+    B is A*D.
 
 ### Output:
+![311431067-0c740663-1575-4bc8-b242-074876c5bf82](https://github.com/Ritz514/AI_Lab_2023-24-120/assets/142646304/eea45561-6021-4d52-9511-de7ba11a200e)
 
 
 
