@@ -17,17 +17,56 @@ Write a Alpha beta pruning algorithm to find the optimal value of MAX Player fro
 ### Program:
 
 
-
-
-
-
-
-
-
-
+MAX, MIN = 1000, -1000
+ 
+def minimax(depth, nodeIndex, maximizingPlayer,
+            values, alpha, beta):
+  
+ 
+    if depth == 3:
+        return values[nodeIndex]
+ 
+    if maximizingPlayer:
+      
+        best = MIN
+ 
+       
+        for i in range(0, 2):
+             
+            val = minimax(depth + 1, nodeIndex * 2 + i,
+                          False, values, alpha, beta)
+            best = max(best, val)
+            alpha = max(alpha, best)
+ 
+     
+            if beta <= alpha:
+                break
+          
+        return best
+      
+    else:
+        best = MAX
+ 
+     
+        for i in range(0, 2):
+          
+            val = minimax(depth + 1, nodeIndex * 2 + i,
+                            True, values, alpha, beta)
+            best = min(best, val)
+            beta = min(beta, best)
+ 
+          
+            if beta <= alpha:
+                break
+          
+        return best
+      
+values = [3, 5, 6, 9, 1, 2, 0, -1] 
+print("The optimal value is :", minimax(0, 0, True, values, MIN, MAX))
 
 ### Output:
 
+![307571910-e08b5446-f5d1-4b92-b239-2c0c24423da5](https://github.com/Ritz514/AI_Lab_2023-24-120/assets/142646304/e3f6998c-1ce2-455d-b36c-5c42dd985911)
 
 
 ### Result:
