@@ -55,8 +55,8 @@ symptom(raju,sore_throat).
 
 
 ### Output:
-![Uploading 324333805-cb3a243d-9111-41ae-a266-6a9663b21a7a.png…]()
 
+![324333805-cb3a243d-9111-41ae-a266-6a9663b21a7a](https://github.com/Ritz514/AI_Lab_2023-24-120/assets/142646304/a0f5c587-914b-4520-afa8-3810fa0607fe)
 
 
 ### Result:
