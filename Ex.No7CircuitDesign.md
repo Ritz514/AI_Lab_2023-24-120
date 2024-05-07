@@ -56,9 +56,10 @@ fulladder(A,B,Cin,S,Cout):-
 
 ![316254164-011aee51-6e27-4dfe-8d20-09670866a43e](https://github.com/Ritz514/AI_Lab_2023-24-120/assets/142646304/f3f61f6f-4ac4-4e18-9b06-3b3b41297eb9)
 
-![316254251-0c0edf41-6d7d-475a-8a2b-f6efa65408ed](https://github.com/Ritz514/AI_Lab_2023-24-120/assets/142646304/acbfd7d4-9b51-4193-93![316254316-150fe1d5-0f8c-4d8a-a1a1-2c8f6627a7e9](https://github.com/Ritz514/AI_Lab_2023-24-120/assets/142646304/7772423a-cb23-484f-801b-a5efd6e82e58)
-40-7fffc6e26d7c)
+![316254251-0c0edf41-6d7d-475a-8a2b-f6efa65408ed](https://github.com/Ritz514/AI_Lab_2023-24-120/assets/142646304/ffa56a44-5c6b-44db-8415-0a133e37d7b6)
 
+
+![316254316-150fe1d5-0f8c-4d8a-a1a1-2c8f6627a7e9](https://github.com/Ritz514/AI_Lab_2023-24-120/assets/142646304/35957513-503a-4ede-bc11-5b25fd9b48e4)
 
 ### Result:
 Thus the truth table of circuit verified sucessfully.
